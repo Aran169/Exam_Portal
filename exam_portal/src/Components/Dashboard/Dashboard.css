@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f4f4; /* Light gray background for a softer look */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Unified font for consistency */
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px ;
+    max-width: 800px; /* Center the container */
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Make heading bold */
+    color: #333; /* Dark gray color for text */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* Blue background for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
